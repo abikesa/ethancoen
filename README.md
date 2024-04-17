@@ -1,6 +1,7 @@
-- Physical: exploits confusion arising out of mistaken `identities`
-- Transcendental: hail, caesar!! is the source of this juice
-- Communal: `identities` are agents (twins), places (talahasi), times (future)
+- Physical (faith): exploits confusion arising out of mistaken `identities`
+   - A new truth ... a truth if we all had, but [...](https://www.youtube.com/watch?v=N9v6VJLZ8_I) 
+- Transcendental (hope): hail, caesar!! is the source of this juice
+- Communal (love): `identities` are agents (twins), places (talahasi), times (future)
 
 > *E pluribus unum*. Out of many, one. This is upside down from the sonic perspective, where "Out of one (root tonal frequency), many (overtones of the harmonic series)
 
