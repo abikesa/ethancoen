@@ -1,40 +1,168 @@
 
- 
-           1. Prognostic
-                        \
-     2. Neuronetowrk -> 4. Error-Mystery-Laughter-Terror -> 5. Categorical -> 6. Diagnostic
-                        / 
-                        3. Log-linear
- 
+## MCR
+
+```sh
+              1. Pagan
+                      \
+  2. Joir de vivre -> 4. Oratorio -> 5. Asceticism -> Christian
+                      /
+                      3. Opera
+```
+
+Mozart placed a premium on `melody`, crafting pieces where the beauty and clarity of the melodic line are paramount. His genius lies in how effortlessly his melodies soar, supported by sophisticated yet accessible harmonic structures.
+
+Bach's brilliance is in his intricate `polyphony`. The way he weaves multiple independent melodic lines together is nothing short of miraculous. Each line maintains its own integrity while contributing to a complex and harmonious whole. This kind of musical conversation, with elements like counterpoint and fugue, showcases a deep, almost mathematical understanding of harmony and structure.
+
+Handel, on the other hand, does focus on `rhythm` and drama, which is evident in his operas and oratorios. His music often relies on bold, clear gestures and rhythmic drive to convey emotional depth and grandeur. This rhythmic emphasis can indeed achieve a potent impact with fewer elements, drawing listeners into the dramatic essence of his compositions.
+
+---
+
+
+> *We are all `riffing` off the same [melody](https://www.instagram.com/reel/C7lvO2lSnEk/?utm_source=ig_web_copy_link) - Jensen Huang*
+
+<a href="https://book.the-turing-way.org/welcome.html"><img src="https://static.dw.com/image/62054308_1004.webp" width="500" align="Right" /></a>
+
+```sh
+find local -type f -exec du -h {} + | sort -rh | head -n 10
+```
+
+```sh
+      1. Probabilistic
+                      \
+  2. Neuronetworks -> 4. Central -> 5. Algorithms -> Deterministic
+                      /
+                      3. Graphical
+```
+
+### Linear: Dionysus 1, 2, 3
+### Categorical: Sing O Muse 4
+### Binary: Apollo 5, 6
+
+# _Oscar Wilde_
+
+```sh
+Rhythm
+├── local
+│   ├── 1-chaos
+│   ├── 1-pessimism.cff
+│   ├── 2-bge.md
+│   ├── 2-frenzy
+│   ├── 3-energy
+│   ├── 3.robustness.md
+│   ├── 4-dionysian
+│   ├── 4-dionysus.md
+│   ├── 5-algorithm
+│   ├── 5-science.md
+│   ├── 6-binary
+│   ├── 6-morality.md
+│   ├── README.md
+│   ├── _chords.md
+│   ├── _modes.md
+│   ├── frontier.png
+│   ├── kitabo
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── ensi
+│   │   │   ├── LICENSE.md
+│   │   │   ├── _bibliography
+│   │   │   ├── _build
+│   │   │   ├── _config.yml
+│   │   │   ├── _static
+│   │   │   ├── _toc.yml
+│   │   │   ├── afterword
+│   │   │   ├── analytics
+│   │   │   ├── bach.pdf
+│   │   │   ├── collaboration
+│   │   │   ├── communication
+│   │   │   ├── community-handbook
+│   │   │   ├── ethical-research
+│   │   │   ├── figures
+│   │   │   ├── foreword
+│   │   │   │   ├── README.md
+│   │   │   │   ├── _chords.md
+│   │   │   │   ├── _modes.md
+│   │   │   │   ├── amazing.md
+│   │   │   │   ├── app
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── assets
+│   │   │   │   │   ├── css
+│   │   │   │   │   └── risk.html
+│   │   │   │   ├── background.md
+│   │   │   │   ├── bounce.md
+│   │   │   │   ├── cite.md
+│   │   │   │   ├── community.md
+│   │   │   │   ├── critical.md
+│   │   │   │   ├── drills.md
+│   │   │   │   ├── embracing-digital-commons.md
+│   │   │   │   ├── emergent-strategy.md
+│   │   │   │   ├── engagement.md
+│   │   │   │   ├── faqs.md
+│   │   │   │   ├── foreword.md
+│   │   │   │   ├── frontier.png
+│   │   │   │   ├── funk.md
+│   │   │   │   ├── genre.md
+│   │   │   │   ├── governance.md
+│   │   │   │   ├── history.md
+│   │   │   │   ├── index.md
+│   │   │   │   ├── inference.md
+│   │   │   │   ├── jsbach.md
+│   │   │   │   ├── kenny.md
+│   │   │   │   ├── literature.md
+│   │   │   │   ├── mcr.md
+│   │   │   │   ├── modes.md
+│   │   │   │   ├── navigate.md
+│   │   │   │   ├── nietzsche.md
+│   │   │   │   ├── oldreadme.md
+│   │   │   │   ├── purple.md
+│   │   │   │   ├── qualities.md
+│   │   │   │   ├── readme2.md
+│   │   │   │   ├── recentreadme.md
+│   │   │   │   ├── reverence.md
+│   │   │   │   ├── sample.md
+│   │   │   │   ├── tokens.md
+│   │   │   │   ├── universal.md
+│   │   │   │   ├── voicing.md
+│   │   │   │   ├── wicked.md
+│   │   │   │   ├── xpected.md
+│   │   │   │   └── yourstruly.md
+│   │   │   ├── foreword.md
+│   │   │   ├── handel.pdf
+│   │   │   ├── index.md
+│   │   │   ├── mozart.pdf
+│   │   │   ├── profiles.yml
+│   │   │   ├── project-design
+│   │   │   ├── reproducible-research
+│   │   │   ├── requirements.in
+│   │   │   ├── requirements.txt
+│   │   │   ├── runtime.txt
+│   │   │   └── scripts
+│   │   ├── templates
+│   │   │   ├── (contents of templates)
+│   ├── lychee.toml
+│   ├── netlify.toml
+├── myenv
+│   ├── (contents of myenv)
+└── new
+    ├── (contents of new)
+```
+
+## [Mozart at 200](https://abikesa.github.io/haydn/part1/part1.html)
+
+```sh
+
+         1. Aria
+                \
+2. Leitmotif -> 4. Polyphony -> 5. Rhythm -> 6. Fugue 
+                /
+                3. Melody
 
 
 
-- Physical ([faith](https://www.biblegateway.com/passage/?search=Hebrews%2011&version=KJV)): exploits confusion arising out of mistaken `identities`
-   - A new truth ... a truth if we all had, but [...](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
-   - Faith in what is not seen, but what is hoped for, and what is charity
-- Transcendental (hope): hail, caesar!! is the source of this juice
-- Communal (love): `identities` are agents (twins), places (talahasi), times (future)
-   - Greatest of the secular trinity, which Ethan Coen finds most joy in treating as Sfumato, with mistaken identities 
-
-> *E pluribus unum*. Out of many, one. This is upside down from the sonic perspective, where "Out of one (root tonal frequency), many (overtones of the harmonic series)
-
-
-# `WebApp Data`
-
-- Simulated: order (parameters) from chaos (random variation)
-- Real: can a perfect simulation be distinguished?
-- Missing: hypothesis (principle investigator), access (clinical notes), usage (format for patient-caregiver)
-- Imputation: we are doing it anyway, so this lays iterative roadmaps to better inferences
-- Names: whole Donny misunderstanding Lenin for John Lennon part is just pure genius. I am the walrus hahahahah
-
-
-           1. Chaos
+      1. Prognostic
                    \
-      2. Frenzy -> 4. Uncommunicable -> 5. Algorithm -> 6. Binary
+2. Neuronetowrk -> 4. Error-Mystery-Laughter-Terror -> 5. Categorical -> 6. Diagnostic
                    / 
-                   3. Energy
+                   3. Log-linear
+```
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://www.youtube.com/embed/lWz8NGIisMo?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
+> *Mozart did not know the world of classical antiquity but he knew a great deal of music, from old church composers to Bach and Handel, from Salzburg serenade to Italian opera. `All this he embraced because he could control it`*
