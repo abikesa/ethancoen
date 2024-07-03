@@ -1,31 +1,33 @@
 # Quirky
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe src="https://www.youtube.com/embed/N9v6VJLZ8_I?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
  
              1. Not Seen
                         \
-         2. Hoped For -> 4. Elders Faith -> 5. Categorical -> 6. Diagnostic
+         2. Hoped For -> 4. Elders Faith -> 5. Destiny's Child -> 6. Noah's Ark
                         / 
                         3. Word of God
  
 
-
-
-- Voir ([faith](https://www.biblegateway.com/passage/?search=Hebrews%2011&version=KJV)): exploits confusion arising out of mistaken `identities`
-   - A new truth ... a truth if we all had, but [...](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
-   - Faith in what is not seen, but what is hoped for, and what is charity
-- Savoir (hope): hail, caesar!! is the source of this juice
-- Pouvoir (love): `identities` are agents (twins), places (talahasi), times (future)
-   - Greatest of the secular trinity, which Ethan Coen finds most joy in treating as Sfumato, with mistaken identities 
-
 > *E pluribus unum*. Out of many, one. This is upside down from the sonic perspective, where "Out of one (root tonal frequency), many (overtones of the harmonic series)
 
 
-# `WebApp Data`
+## `WebApp Data`
 
-- Simulated: order (parameters) from chaos (random variation)
-- Real: can a perfect simulation be distinguished?
-- Missing: hypothesis (principle investigator), access (clinical notes), usage (format for patient-caregiver)
-- Imputation: we are doing it anyway, so this lays iterative roadmaps to better inferences
-- Names: whole Donny misunderstanding Lenin for John Lennon part is just pure genius. I am the walrus hahahahah
+### Dionysus 1, 2, 3
+- `Voir`: Faith in what is **not seen**, but what is hoped for, i.e. God's charity
+- `Savoir`: Ethan, like the author of a Midsummer Nights Dream, exploits the frenzy & sfumato arising out of mistaken or ambiguous `identities`
+- `Pouvoir`: God so loved himself that he created the world and placed man in it, that man's foremost duty would be to love God
+
+### Sing O Muse 4
+- `Communication`: These are the Judeo-Christian teachings from the last 3000 years, and they say the very opposite of the Greco-Roman teachings from same period
+
+### Apollo 5, 6
+- `Identity`: And thus you have the pagans and heathens, *joir de vivre*, diva & opera vs. hebrews and christians, asceticism, cantor & oratorio 
+- `Achievements`: Which of these two has spawned a greater following over the last three millenia? It's a tie: one dominates the arts, the other ethics
 
 
            1. Chaos

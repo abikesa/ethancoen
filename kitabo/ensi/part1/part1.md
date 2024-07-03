@@ -2,7 +2,11 @@
 # Part 1
 
 ```{note}
-This section has been recently added, and some chapters are still being reviewed by the project delivery team and community members. If you notice any error, please raise an issue on our GitHub repository.
+- Simulated: essentially conjuring order (parameters) from chaos (random variation)
+- Real: can a perfect simulation be `identified` or distinguished from real data?
+- Missing: hypothesis elements (principle investigator), data access (clinical notes), client usage (format for patient-caregiver)
+- Imputation: we are doing it anyway, e.g. complete data analysis, so this lays an iterative roadmaps to better inferences
+- Names: the whole Donny misunderstanding Lenin for John Lennon part is just pure genius. I am the walrus hahahahah
 ```
 
 <iframe src="app/risk.html" width="100%" height="600px" style="borders:none"></iframe>
