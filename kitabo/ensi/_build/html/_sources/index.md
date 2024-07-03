@@ -1,19 +1,19 @@
 # Quirky
  
-           1. Prognostic
+             1. Not Seen
                         \
-     2. Neuronetowrk -> 4. Error-Mystery-Laughter-Terror -> 5. Categorical -> 6. Diagnostic
+         2. Hoped For -> 4. Elders Faith -> 5. Categorical -> 6. Diagnostic
                         / 
-                        3. Log-linear
+                        3. Word of God
  
 
 
 
-- Physical ([faith](https://www.biblegateway.com/passage/?search=Hebrews%2011&version=KJV)): exploits confusion arising out of mistaken `identities`
+- Voir ([faith](https://www.biblegateway.com/passage/?search=Hebrews%2011&version=KJV)): exploits confusion arising out of mistaken `identities`
    - A new truth ... a truth if we all had, but [...](https://www.youtube.com/watch?v=N9v6VJLZ8_I)
    - Faith in what is not seen, but what is hoped for, and what is charity
-- Transcendental (hope): hail, caesar!! is the source of this juice
-- Communal (love): `identities` are agents (twins), places (talahasi), times (future)
+- Savoir (hope): hail, caesar!! is the source of this juice
+- Pouvoir (love): `identities` are agents (twins), places (talahasi), times (future)
    - Greatest of the secular trinity, which Ethan Coen finds most joy in treating as Sfumato, with mistaken identities 
 
 > *E pluribus unum*. Out of many, one. This is upside down from the sonic perspective, where "Out of one (root tonal frequency), many (overtones of the harmonic series)
