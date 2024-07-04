@@ -1,5 +1,5 @@
 (fw)=
-# Part 1
+# Part 1: Apollo
 
 ```{note}
 - Simulated: essentially conjuring order (parameters) from chaos (random variation)
