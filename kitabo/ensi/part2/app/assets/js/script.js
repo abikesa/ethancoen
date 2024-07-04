@@ -8,7 +8,7 @@ let recognition;
 let mortalityChart;
 let lastScenario = null;
 let lastCalculationTime = 0;
-const CALCULATION_COOLDOWN = 1000; // 1 second cooldown
+const CALCULATION_COOLDOWN = 1; // 1 second cooldown; not convinced of this
 
 async function fetchCSV(url) {
     const response = await fetch(url);
