@@ -1,5 +1,5 @@
 (rr)=
-# Part 2: Sing O Muse!
+# Part 3: Apollo
 
 ***This guide covers topics related to skills, tools and best practices for research reproducibility.***
 
