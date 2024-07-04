@@ -1,30 +1,93 @@
 (fw-aim1)=
 # WebApp
 
-_Our moonshot goal is to make reproducibility "too easy not to do"._
+```
+      1. Construct
+                  \
+   3. Language -> 2. Adjective -> 5. Verb -> 6. Object
+                  /
+                   4. Subject
+```
 
-Reproducible research is necessary to ensure that scientific work can be trusted.
-Led by strong advocacy from the research community for open science and research reproducibility, funders and publishers are increasingly requiring that publications include access to the underlying data and analysis code.
-The goal is to ensure that all results can be independently verified and built upon in future work.
 
-This is sometimes easier said than done. Sharing these research outputs means understanding and applying a range of practices, including open science, data management, library sciences, software development, and continuous integration techniques — skills that are not widely taught or expected of academic researchers and data scientists.
-Furthermore, technical skill alone is not sufficient for making research reproducible and open for all.
+1. Syntax:: Deep
+   - Subject
+   - Verb
+   - Object
 
-_The Turing Way_ provides resources to build an understanding of good practices and improve research habits through modular chapters in a self-contained handbook.
-Rather than reinventing the wheel by rewriting or redefining data science best practices, we encourage you to introduce known methods, tools and approaches in accessible language in _The Turing Way_ chapters.
-In these chapters, you can highlight existing resources, curated materials and external links, setting readers up for diving deeper into topics of their choice.
+```
+       1. Validity
+                  \
+    3. Formula -> 2. Cost -> 5. Transparency -> 6. Datasets
+                  /
+                   4. Expertise
+```
 
-The book started in January 2019 as a guide for reproducibility, covering {ref}`rr-vcs`, {ref}`rr-testing`, and {ref}`rr-ci`.
+2. Transformation
+     
+   - Chomsky's theory of `transformational-generative` grammar involves the idea of transforming a deep structure into a surface structure through various transformations. Here are some types of transformations in Chomskyan syntax:
+   - Also, [Michel Foucault](https://chomsky.info/1971xxxx/) is subsummed here since verbs could be active or passive, implying hierarchy and power or lack thereof
+
+   1. **Passivization:**
+      - Example: "The cat chased the mouse" (active) transforms into "The mouse was chased by the cat" (passive).
+
+   2. **Clefting:**
+      - Example: "I saw the movie last night" transforms into "It was the movie that I saw last night."
+
+   3. **Question Formation:**
+      - Example: "She is reading a book" transforms into "Is she reading a book?"
+
+   4. **Movement:**
+      - Involves moving constituents from one position in a sentence to another.
+      - Example: "John will give a book to Mary" transforms into "To Mary, John will give a book."
+
+   5. **Extraposition:**
+      - Involves moving constituents to the end of a sentence.
+      - Example: "I believe that the world is round" transforms into "I believe the world is round."
+
+   6. **Conjunction Reduction:**
+      - Example: "John likes coffee, and Mary likes tea" transforms into "John likes coffee, Mary tea."
+
+   7. **Relative Clause Formation:**
+      - Example: "The man who is sitting over there is my friend" transforms into "The man sitting over there is my friend."
+
+   8. **Equi-NP Deletion:**
+      - Example: "John likes coffee, and Bill does too" transforms into "John likes coffee, and Bill does."
+
+   These transformations play a crucial role in Chomsky's theory of syntax, allowing for the generation of a wide variety of sentences from a relatively small set of underlying structures. Keep in mind that the list is not exhaustive, and there are more transformations and variations within Chomsky's framework.
+   
+```
+           1. Voir
+                  \
+     3. Savoir -> 2. Good & Evil -> 5. Hierarchy -> 6. Relationships
+                  /
+                   4. Pouvoir
+```
+
+3. Metaphor
+   - Increased ambiguity
+   - Recipient can project their affect onto this ambiguity
+   - Here `meaning` becomes `participatory`
+   - Crux of the matter is `empowering` a client or `Principal` to regain `Agency`
+   - Typically "informed" consent
+   - Which really is a beautifully curated [dataset](https://github.com/abikesa/datasets)
+   - Sophistication, analytic capability, reaching inferences: give client the tools to achieve this
+   - Nike, Apple, Microsoft, and Bloomberg have business models explicitly founded on this
+  
+
+
+
+This book ... {ref}`rr-vcs`, {ref}`rr-testing`, and {ref}`rr-ci`.
 However, technical skills are just one aspect of making data science research "open for all".
 Hence, in February 2020, _The Turing Way_ expanded into a series of guides: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`, and {ref}`er`.
 Through community contributions, the project has grown into multiple guides, a global community and numerous resources built and shared by the members of our community.
 
-```{figure} ../figures/evolution-openscience.*
+```{figure} https://media.licdn.com/dms/image/C5112AQF-_ei9ONe76g/article-cover_image-shrink_720_1280/0/1531066443929?e=2147483647&v=beta&t=mYThyJQOXaRkYaJfAsKu406B0ZqoBlBrCvWaG-2hiGY
 ---
 name: evolution-openscience
 alt: This image shows the evolving interest of a new researcher in sharing their work using open science practices.
 ---
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_Black-Scholes-Merton_. Easy to see how the pricing depends on the underlying distribution. Also why the academics stick to the European call option and don't bother with the American version (the authors were American!)
 ```
 
 Lessons learned from _The Turing Way_ will help design projects with reproducible, collaborative, and ethical research frameworks.
@@ -37,17 +100,11 @@ It will also ensure that different stakeholders of research know which parts of 
 
 - There is a crisis of reproducibility  in science. 
 - ‘Publish-or-perish’ incentives and excessive data secrecy stifle progress and waste resources: siloed science is slow science. 
-- _The Turing Way_ is an evolving online ‘handbook’ on how to conduct world-leading, reproducible research in academic data science and AI with the goal of making reproducible research “too easy not to do”.  
-- The book deals not only with the ‘how’ of things, but also the ‘why’ – the ethos and long-term benefits of reproducible research.
-- _The Turing Way_ is also a flourishing global community of research engineers, data librarians, industry professionals and research experts dedicated to capturing and sharing research best practices, tools and data.
 
 _Visit The Alan Turing Institute website for the [full impact story](https://www.turing.ac.uk/research/impact-stories/changing-culture-data-science)._
 ```
 
-Our team and community members are committed to adopting and promoting openness, inclusivity, ethical conduct, and access in research and data science, and have integrated these in all aspects, including the chapters, of _The Turing Way_.
 
-The project has been developed openly and any and all questions, comments and recommendations are always welcome at our GitHub repository: https://github.com/the-turing-way/the-turing-way.
-We really appreciate you using these resources and any references that you make to _The Turing Way_ project in your work, and we hope it is useful.
 
 ```{Note}
 A history section will be added soon in this chapter.

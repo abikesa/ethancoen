@@ -70,6 +70,8 @@
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <script src="_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/index.html" />
@@ -446,10 +448,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webapp-data"><code class="docutils literal notranslate"><span class="pre">WebApp</span> <span class="pre">Data</span></code></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dionysus-1-2-3">Dionysus 1, 2, 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#efficient-market-hypothesis"><code class="docutils literal notranslate"><span class="pre">Efficient-Market</span> <span class="pre">Hypothesis</span></code></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#null-1-2-3">Null 1, 2, 3</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sing-o-muse-4">Sing O Muse 4</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#apollo-5-6">Apollo 5, 6</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-5-6">Alternative 5, 6</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
 </ul>
 </li>
@@ -469,54 +471,55 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="part-1-dionysus">
 <h1>Part 1: Dionysus<a class="headerlink" href="#part-1-dionysus" title="Permalink to this heading">#</a></h1>
 <blockquote>
-<div><p><em>“Patient education and informed consent must be personalized. Our app offers dynamic, interactive educational content tailored for patients, care providers, and students. This tool enables users to generate and share personalized inferences for diverse clinical and public health scenarios.” - Anonymous</em></p>
+<div><p><em>Call option price is analogous to the difference between the <code class="docutils literal notranslate"><span class="pre">base-case</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">clinical-scenario</span></code>; i.e., <code class="docutils literal notranslate"><span class="pre">logHR</span></code>. In clinical medicine, we’ve kept our cumulative distribution functions non-parametric, at least for our base-case (62,000 citations: <a class="reference external" href="https://scholar.google.com/scholar?hl=en&amp;amp;as_sdt=0%2C21&amp;amp;q=Regression+Models+and+Life-Tables.%22&amp;amp;btnG=">Google Scholar</a>)</em></p>
 </div></blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://www.youtube.com/embed/N9v6VJLZ8_I?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>         1. Not Seen
-                    \
-     2. Hoped For -&gt; 4. Elders Faith -&gt; 5. Destiny&#39;s Child -&gt; 6. Noah&#39;s Ark
-                    / 
-                    3. Word of God
+  <iframe src="./cox.pdf" height="100px" width="100%" style="borders:none"></iframe>
+<div class="math notranslate nohighlight">
+\[
+C(S, t) = S_0 \mathcal{N}(d_1) - X e^{-r(T-t)} \mathcal{N}(d_2)
+\]</div>
+<p>where:</p>
+<div class="math notranslate nohighlight">
+\[
+d_1 = \frac{\ln(S_0/X) + (r + \sigma^2/2)(T-t)}{\sigma \sqrt{T-t}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+d_2 = d_1 - \sigma \sqrt{T-t}
+\]</div>
+<p>Here, <span class="math notranslate nohighlight">\(C\)</span> is the call option price, <span class="math notranslate nohighlight">\(S_0\)</span> is the current stock price, <span class="math notranslate nohighlight">\(X\)</span> is the strike price, <span class="math notranslate nohighlight">\(r\)</span> is the risk-free interest rate, <span class="math notranslate nohighlight">\(T\)</span> is the time to maturity, <span class="math notranslate nohighlight">\(\sigma\)</span> is the volatility of the stock, and <span class="math notranslate nohighlight">\(\mathcal{N}(\cdot)\)</span> is the cumulative distribution function of the standard normal distribution.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>       1. Chaos
+               \
+  2. Frenzy -&gt; 4. Unpredictable -&gt; 5. Algorithm -&gt; 6. Binary
+               / 
+               3. Random-Walk
 </pre></div>
 </div>
-<blockquote>
-<div><p><em>E pluribus unum</em>. Out of many, one. This is upside down from the sonic perspective, where “Out of one (root tonal frequency), many (overtones of the harmonic series)</p>
-</div></blockquote>
-<section id="webapp-data">
-<h2><code class="docutils literal notranslate"><span class="pre">WebApp</span> <span class="pre">Data</span></code><a class="headerlink" href="#webapp-data" title="Permalink to this heading">#</a></h2>
-<section id="dionysus-1-2-3">
-<h3>Dionysus 1, 2, 3<a class="headerlink" href="#dionysus-1-2-3" title="Permalink to this heading">#</a></h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe src="https://www.youtube.com/embed/A5w-dEgIU1M?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+<section id="efficient-market-hypothesis">
+<h2><code class="docutils literal notranslate"><span class="pre">Efficient-Market</span> <span class="pre">Hypothesis</span></code><a class="headerlink" href="#efficient-market-hypothesis" title="Permalink to this heading">#</a></h2>
+<section id="null-1-2-3">
+<h3>Null 1, 2, 3<a class="headerlink" href="#null-1-2-3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Voir</span></code>: Faith in what is <strong>not seen</strong>, but what is hoped for, i.e. God’s charity</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Savoir</span></code>: Ethan, like the author of a Midsummer Nights Dream, exploits mistaken or ambiguous identities (sfumato) arising out of frenzy</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Pouvoir</span></code>: God so loved himself that he created the world and placed man in it, that man’s foremost duty would be to love God</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Voir</span></code>: What has seemed chaotic has been tamed using <strong>parameters</strong> (which can also generate chaos – i.e., data – in simulation)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Savoir</span></code>: Frenzy vs. logic might be a matter of “compute”; so god doesn’t play dice?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Pouvoir</span></code>: Infrastructure and architecture for “compute”</p></li>
 </ul>
 </section>
 <section id="sing-o-muse-4">
 <h3>Sing O Muse 4<a class="headerlink" href="#sing-o-muse-4" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Communication</span></code>: These are the Judeo-Christian teachings from the last 3000 years, and they say the very opposite of the Greco-Roman teachings from same period</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Unpredictable</span></code>: Yet machine-learning, digital information, and extraordinary “compute” do yield better returns than the null-hypothesis might support</p></li>
 </ul>
 </section>
-<section id="apollo-5-6">
-<h3>Apollo 5, 6<a class="headerlink" href="#apollo-5-6" title="Permalink to this heading">#</a></h3>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">Identity</span></code>: And thus you have the pagans and heathens, <em>joir de vivre</em>, diva &amp; opera vs. hebrews and christians, asceticism, cantor &amp; oratorio</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Achievements</span></code>: Which of these two has spawned a greater following over the last three millenia? It’s a tie: one dominates the arts, the other ethics</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>     1. Chaos
-             \
-2. Frenzy -&gt; 4. Uncommunicable -&gt; 5. Algorithm -&gt; 6. Binary
-             / 
-             3. Energy
-</pre></div>
-</div>
-</li>
+<section id="alternative-5-6">
+<h3>Alternative 5, 6<a class="headerlink" href="#alternative-5-6" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Identity</span></code>: Quants, programmers, and algorithms may win the day since “chaos” &amp; “random” merely reflect the limits of human comprehension</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Achievements</span></code>: Using super-human <code class="docutils literal notranslate"><span class="pre">AI</span></code> capabilities of machines to handle <span class="math notranslate nohighlight">\(N^N\)</span> <strong>parameters</strong>, <a class="reference external" href="https://en.wikipedia.org/wiki/Jim_Simons#Controversies">Jim Simmons</a> left his mark</p></li>
 </ul>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://www.youtube.com/embed/lWz8NGIisMo?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
 <section id="table-of-contents">
 <h4>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">#</a></h4>
 <div class="toctree-wrapper compound">
@@ -585,10 +588,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webapp-data"><code class="docutils literal notranslate"><span class="pre">WebApp</span> <span class="pre">Data</span></code></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dionysus-1-2-3">Dionysus 1, 2, 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#efficient-market-hypothesis"><code class="docutils literal notranslate"><span class="pre">Efficient-Market</span> <span class="pre">Hypothesis</span></code></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#null-1-2-3">Null 1, 2, 3</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sing-o-muse-4">Sing O Muse 4</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#apollo-5-6">Apollo 5, 6</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-5-6">Alternative 5, 6</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
 </ul>
 </li>

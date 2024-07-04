@@ -1,51 +1,56 @@
 # Part 1: Dionysus
 
 
-> *"Patient education and informed consent must be personalized. Our app offers dynamic, interactive educational content tailored for patients, care providers, and students. This tool enables users to generate and share personalized inferences for diverse clinical and public health scenarios." - Anonymous*
+> *Call option price is analogous to the difference between the `base-case` & `clinical-scenario`; i.e., `logHR`. In clinical medicine, we've kept our cumulative distribution functions non-parametric, at least for our base-case (62,000 citations: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C21&q=Regression+Models+and+Life-Tables.%22&btnG=))*
+
+  <iframe src="./cox.pdf" height="100px" width="100%" style="borders:none"></iframe>
 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://www.youtube.com/embed/N9v6VJLZ8_I?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
+$$
+C(S, t) = S_0 \mathcal{N}(d_1) - X e^{-r(T-t)} \mathcal{N}(d_2)
+$$
 
- 
-             1. Not Seen
-                        \
-         2. Hoped For -> 4. Elders Faith -> 5. Destiny's Child -> 6. Noah's Ark
-                        / 
-                        3. Word of God
- 
+where:
 
-> *E pluribus unum*. Out of many, one. This is upside down from the sonic perspective, where "Out of one (root tonal frequency), many (overtones of the harmonic series)
+$$
+d_1 = \frac{\ln(S_0/X) + (r + \sigma^2/2)(T-t)}{\sigma \sqrt{T-t}}
+$$
+
+$$
+d_2 = d_1 - \sigma \sqrt{T-t}
+$$
+
+Here, $C$ is the call option price, $S_0$ is the current stock price, $X$ is the strike price, $r$ is the risk-free interest rate, $T$ is the time to maturity, $\sigma$ is the volatility of the stock, and $\mathcal{N}(\cdot)$ is the cumulative distribution function of the standard normal distribution.
 
 
-## `WebApp Data`
 
-### Dionysus 1, 2, 3
-- `Voir`: Faith in what is **not seen**, but what is hoped for, i.e. God's charity
-- `Savoir`: Ethan, like the author of a Midsummer Nights Dream, exploits mistaken or ambiguous identities (sfumato) arising out of frenzy 
-- `Pouvoir`: God so loved himself that he created the world and placed man in it, that man's foremost duty would be to love God
-
-### Sing O Muse 4
-- `Communication`: These are the Judeo-Christian teachings from the last 3000 years, and they say the very opposite of the Greco-Roman teachings from same period
-
-### Apollo 5, 6
-- `Identity`: And thus you have the pagans and heathens, *joir de vivre*, diva & opera vs. hebrews and christians, asceticism, cantor & oratorio 
-- `Achievements`: Which of these two has spawned a greater following over the last three millenia? It's a tie: one dominates the arts, the other ethics
 
 
            1. Chaos
                    \
-      2. Frenzy -> 4. Uncommunicable -> 5. Algorithm -> 6. Binary
+      2. Frenzy -> 4. Unpredictable -> 5. Algorithm -> 6. Binary
                    / 
-                   3. Energy
+                   3. Random-Walk
+
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="https://www.youtube.com/embed/lWz8NGIisMo?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+  <iframe src="https://www.youtube.com/embed/A5w-dEgIU1M?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
+## `Efficient-Market Hypothesis`
 
+### Null 1, 2, 3
+- `Voir`: What has seemed chaotic has been tamed using **parameters** (which can also generate chaos -- i.e., data -- in simulation)
+- `Savoir`: Frenzy vs. logic might be a matter of "compute"; so god doesn't play dice?
+- `Pouvoir`: Infrastructure and architecture for "compute"
+
+### Sing O Muse 4
+- `Unpredictable`: Yet machine-learning, digital information, and extraordinary "compute" do yield better returns than the null-hypothesis might support
+
+### Alternative 5, 6
+- `Identity`: Quants, programmers, and algorithms may win the day since "chaos" & "random" merely reflect the limits of human comprehension
+- `Achievements`: Using super-human `AI` capabilities of machines to handle $N^N$ **parameters**, [Jim Simmons](https://en.wikipedia.org/wiki/Jim_Simons#Controversies) left his mark
 
 #### Table of Contents
 
