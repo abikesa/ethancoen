@@ -1,5 +1,5 @@
 (fw)=
-# Part 1: Apollo
+# Part 2: Sing O Muse
 
 ```{note}
 - Simulated: essentially conjuring order (parameters) from chaos (random variation)
