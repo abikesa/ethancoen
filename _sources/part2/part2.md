@@ -1,28 +1,32 @@
-(rr)=
-# Part 3: Apollo
+(fw)=
+# Part 2: Sing O Muse
 
-***This guide covers topics related to skills, tools and best practices for research reproducibility.***
-
-_The Turing Way_ defines reproducibility in data research as data and code being available to fully rerun the analysis.
-
-There are several definitions of reproducibility in use, and we discuss these in more detail in the {ref}`rr-overview-definitions` section of this chapter.
-While it is absolutely fine for us each to use different words, it will be useful for you to know how _The Turing Way_ defines *reproducibility* to avoid misunderstandings when reading the rest of the handbook.
-
-- {ref}`rr-overview`
-- {ref}`rr-open`
-
-```{figure} ../figures/reproducibility.*
----
-height: 500px
-name: reproducible
-alt: A person showing another person what steps to take to make their data research reproducible. There is a path with several steps- Here are my data - Here are my tools - Here is my code - Here are my results
----
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+```{note}
+- Simulated: essentially conjuring order (parameters) from chaos (random variation)
+- Real: can a perfect simulation be `identified` or distinguished from real data?
+- Missing: hypothesis elements (principle investigator), data access (clinical notes), client usage (format for patient-caregiver)
+- Imputation: we are doing it anyway, e.g. complete data analysis, so this lays an iterative roadmaps to better inferences
+- Names: the whole Donny misunderstanding Lenin for John Lennon part is just pure genius. I am the walrus hahahahah
 ```
 
-_The Turing Way_ started by defining reproducibility in the context of this handbook, laying out its importance for science and scientists, and providing an overview of the common concepts, tools and resources.
-The first few chapters were on {ref}`version control<rr-vcs>`, {ref}`testing<rr-testing>`, and {ref}`reproducible computational environments<rr-renv>`.
-Since the start of this project in 2019, many additional chapters have been written, edited, reviewed, read and promoted by over 300 contributors.
+<iframe src="app/risk.html" width="100%" height="600px" style="borders:none"></iframe>
 
-We welcome your contributions to improve these chapters, add other important concepts in reproducibility, and empower researchers to work reproducibly from the start.
-Check out our [contributing guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
+You will find these details in the following chapters:
+
+- {ref}`fw-aim1`
+- {ref}`fw-aim2`
+- {ref}`fw-aim3`
+
+
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nietzsche_paul-ree_lou-von-salome188.jpg/220px-Nietzsche_paul-ree_lou-von-salome188.jpg
+---
+width: 100%
+name: banner-welcome
+alt: Two people, a woman and a man, waving next to a banner that says - welcome.
+---
+*Power dynamics :)*
+```
+
+<iframe src="https://abikesa.github.io/music/_downloads/270ce1dc688a64dec497dfe81d0966aa/mozart.pdf" width="200%" height="1000" style="borders:none"></iframe>
+<iframe src="https://abikesa.github.io/music/_downloads/a207eb5446aa5d171a0ba97791498e49/bach.pdf" width="200%" height="1000" style="borders:none"></iframe>
+<iframe src="https://abikesa.github.io/music/_downloads/f1747777a15dcc72b5adef6cfcae8d8e/handel.pdf" width="200%" height="1000" style="borders:none"></iframe>
