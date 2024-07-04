@@ -23,7 +23,7 @@
 
 ### Dionysus 1, 2, 3
 - `Voir`: Faith in what is **not seen**, but what is hoped for, i.e. God's charity
-- `Savoir`: Ethan, like the author of a Midsummer Nights Dream, exploits mistaken or ambiguous `identities` (sfumato) arising out of frenzy `
+- `Savoir`: Ethan, like the author of a Midsummer Nights Dream, exploits mistaken or ambiguous identities (sfumato) arising out of frenzy 
 - `Pouvoir`: God so loved himself that he created the world and placed man in it, that man's foremost duty would be to love God
 
 ### Sing O Muse 4
