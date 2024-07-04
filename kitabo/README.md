@@ -3,7 +3,7 @@
 ```sh
 cd ~/documents/rhythm/jam/kitabo/ensi
 pip install -r requirements.txt && jupyter-book build .
-cp -r part1/app/* _build/html/part1/app
+cp -r part2/app/* _build/html/part2/app
 cd ~/documents/rhythm/
 new/jbb_https.sh
 ```
